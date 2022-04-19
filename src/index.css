@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #fafafa;
+  background: url('./assets/images/bg.png');
+  overflow-x: hidden !important;
+}
+#root{
+  max-width: 1170px;
+  width: 100%;
+  margin: 60px auto 0;
+}
+@media (max-width:991px) {
+    #root{
+      margin-top: 30px !important;
+    }
+}

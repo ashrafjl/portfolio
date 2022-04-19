@@ -1,0 +1,24 @@
+.skill{
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 48px 0 rgba(0,0,0,0.08) !important;
+    min-height: 186px;
+    height: 100%;
+}
+.skill .skill_title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.skill .skill_description{
+    display: flex;
+    align-items: center;
+    color: #989898;
+    font-weight: 400;
+    line-height: 24px;
+}
+.skill .skill_description .timeline_dot{
+    border-color: var(--yellow) !important;
+    padding: 2px !important;
+    margin-right: 5px !important;
+}

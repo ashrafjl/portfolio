@@ -1,0 +1,19 @@
+.contact_info{
+
+}
+.contact_item{
+    font-size: 14px;
+    color: #787878;
+}
+.contact_item > span{
+    color: black;
+    font-weight: 500;
+}
+.contact_socials{
+    display: inline-block;
+    margin-right: 20px;
+}
+.contact_socials > .MuiSvgIcon-root{
+    color: black;
+    font-size: 15px !important;
+}

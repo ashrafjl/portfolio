@@ -1,0 +1,59 @@
+.aboutme_text{
+    color: darkslategray;
+    font-size: smaller;
+    line-height: 26px;
+    white-space: pre-line;
+}
+.resume_timeline .timeline_title{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.resume_timeline .timeline_date{
+    color: darkslategray !important;
+    font-weight: 400 !important;
+}
+.resume_timeline .timeline_description{
+    color: gray !important;
+    font-size: small !important;
+    margin-top: 6px !important;
+}
+/*Skills section*/
+.client_img_container{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 48px 0 rgba(0,0,0,0.08) !important;
+    border-radius: 8px;
+}
+.client_img{
+    width: 100%;
+}
+.testimonial{
+    padding: 20px !important;
+    box-shadow: 0 0 48px 0 rgba(0,0,0,0.08) !important;
+}
+.testimonial_header{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+.testimonial-img > .MuiAvatar-root{
+    width: 50px !important;
+    height: 50px !important;
+}
+.testimonial_name{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+.testimonial_title{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #787878 !important;
+}
+.testimonial_desc{
+    padding-top: 10px;
+    font-size: 14px !important;
+    color: #787878 !important;
+}

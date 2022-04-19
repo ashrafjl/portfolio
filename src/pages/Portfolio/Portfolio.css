@@ -1,0 +1,55 @@
+.customTabs_item{
+    padding: 0 !important;
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    outline-width: 0px !important;
+}
+.customTabs_item.active{
+    color: var(--yellow);
+}
+.custom_card{
+    height: 100%;
+    max-width: 350px;
+    box-shadow: 0 0 45px 0px rgba(0,0,0,0.08) !important;
+    border-radius: 5px;
+    overflow: hidden;
+    outline-width: 0px !important;
+}
+.custom_card .custom_card_image{
+    height: 140px;
+}
+.custom_card .custom_card_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+.custom_card .custom_card_description{
+    color: #787878;
+    font-size: 13px !important;
+}
+.dialog_box .dialog_image{
+    max-height: 300px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+}   
+.dialog_box .dialog_description{
+    margin-top: 10px !important;
+}
+.dialog_box .dialog_actions{
+    justify-content: center;
+    margin-bottom: 10px !important;
+}
+.dialog_box .dialog_icon{
+    color: darkslategray;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.dialog_box .dialog_icon > .MuiSvgIcon-root{
+    font-size: 30px !important;
+}
+.dialog_box .dialog_icon:hover{
+    color: var(--yellow);
+}
